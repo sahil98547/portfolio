@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #4CAF50;
+}
+
+.contact-info {
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info a {
+  color: #4CAF50;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4CAF50;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 5px;
+}
+
+.skills p {
+  font-size: 18px;
+}
+
+.projects h3 {
+  margin-top: 10px;
+}
+
+.projects p {
+  margin-bottom: 5px;
+}
+
+.projects ul {
+  margin-top: 5px;
+}
+
+.achievements ul {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+.certifications ul {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 28px;
+  }
+  
+  .section h2 {
+    font-size: 20px;
+  }
+  
+  .skills p {
+    font-size: 16px;
+  }
+}
